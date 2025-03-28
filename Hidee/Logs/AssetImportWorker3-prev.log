@@ -1,0 +1,381 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.45f1 (0da89fac8e79) revision 895135'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'ru' Physical Memory: 15611 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.45f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/Alish/Desktop/Hidee-Game-Project/Hidee
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+50848
+Successfully changed project path to: C:/Users/Alish/Desktop/Hidee-Game-Project/Hidee
+C:/Users/Alish/Desktop/Hidee-Game-Project/Hidee
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [24240] Host "[IP] 192.168.2.124 [Port] 0 [Flags] 2 [Guid] 1050615099 [EditorId] 1050615099 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-OAET0P7) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [24240] Host "[IP] 192.168.2.124 [Port] 0 [Flags] 2 [Guid] 1050615099 [EditorId] 1050615099 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-OAET0P7) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 82.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.45f1 (0da89fac8e79)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Alish/Desktop/Hidee-Game-Project/Hidee/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28e0)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   32.0.15.6626
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56196
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007357 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 848 ms
+Refreshing native plugins compatible for Editor in 65.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.442 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1443ms)
+		BeginReloadAssembly (92ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1261ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (90ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (1107ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (914ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (66ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (90ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.013473 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 79.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Thank you for using Fish-Networking! If you have any feedback—whether it's suggestions, documentation, or performance-related—please let us know through our anonymous <a href=https://forms.gle/1g13VY4KKMnEqpkp6>Google feedback form!</a>
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FishNet.Editing.FishNetGettingStartedEditor:LogFeedbackLink () (at Assets/FishNet/Runtime/Editor/Configuring/FIshNetGettingStartedEditor.cs:172)
+FishNet.Editing.FishNetGettingStartedEditor:Initialize () (at Assets/FishNet/Runtime/Editor/Configuring/FIshNetGettingStartedEditor.cs:62)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Assets/FishNet/Runtime/Editor/Configuring/FIshNetGettingStartedEditor.cs Line: 172)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.891 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1892ms)
+		BeginReloadAssembly (122ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (1673ms)
+			LoadAssemblies (110ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (299ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (95ms)
+			SetupLoadedEditorAssemblies (1126ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (79ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (863ms)
+				ProcessInitializeOnLoadMethodAttributes (67ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5524 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (0.7 MB). Loaded Objects now: 5981.
+Memory consumption went from 211.6 MB to 210.9 MB.
+Total: 4.137200 ms (FindLiveObjects: 0.515400 ms CreateObjectMapping: 0.273200 ms MarkObjects: 2.884700 ms  DeleteObjects: 0.462400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1199.694878 seconds.
+  path: Assets/Toon Environments - World Creator Pack Lite/Textures/Desert.png
+  artifactKey: Guid(9965754965856d44b846a40e850e71bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Toon Environments - World Creator Pack Lite/Textures/Desert.png using Guid(9965754965856d44b846a40e850e71bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '520005e9f1c7228b9de3dcb19dd49360') in 0.082664 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Toon Environments - World Creator Pack Lite/Textures/Winter_Asphalt.png
+  artifactKey: Guid(90539b5d4af225b488b8c60d4ffde86e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Toon Environments - World Creator Pack Lite/Textures/Winter_Asphalt.png using Guid(90539b5d4af225b488b8c60d4ffde86e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5184f5d3d637c52098eac8b4851021ed') in 0.012863 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.323664 seconds.
+  path: Assets/Toon Environments - World Creator Pack Lite/Textures/Color Palettes PS Files/Fall.psd
+  artifactKey: Guid(f1b4a36290a6fd045bd38d0c1ce1148b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Toon Environments - World Creator Pack Lite/Textures/Color Palettes PS Files/Fall.psd using Guid(f1b4a36290a6fd045bd38d0c1ce1148b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6dddb8501f292d8052c74a5174b15b1') in 0.021301 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Toon Environments - World Creator Pack Lite/Textures/Color Palettes PS Files/Summer.psd
+  artifactKey: Guid(e250bf4d8f1630343804478b7f8288fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Toon Environments - World Creator Pack Lite/Textures/Color Palettes PS Files/Summer.psd using Guid(e250bf4d8f1630343804478b7f8288fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe4177675e3ee0d21dc85af223158dbb') in 0.016142 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2121.279333 seconds.
+  path: Assets/ithappy/Fantasy_FREE/Prefabs/bag_002.prefab
+  artifactKey: Guid(fdefba5aaec2a2540870025c11f2de18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ithappy/Fantasy_FREE/Prefabs/bag_002.prefab using Guid(fdefba5aaec2a2540870025c11f2de18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a980d7b70245a746e959f9426d827a46') in 0.068398 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ithappy/Fantasy_FREE/Prefabs/jug_001.prefab
+  artifactKey: Guid(f0d98afcbc58f254ca211e946d2872e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ithappy/Fantasy_FREE/Prefabs/jug_001.prefab using Guid(f0d98afcbc58f254ca211e946d2872e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21ec0f5fab21e729794bf130f8889508') in 0.023782 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ithappy/Fantasy_FREE/Prefabs/plate_001.prefab
+  artifactKey: Guid(9937b11e016730f4e8313e395020a1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ithappy/Fantasy_FREE/Prefabs/plate_001.prefab using Guid(9937b11e016730f4e8313e395020a1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c39862ec8638e280cf2dcd112ee1465') in 0.014200 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ithappy/Fantasy_FREE/Prefabs/fabulous_tree_001.prefab
+  artifactKey: Guid(92197e3ff2cd62844bfca02082d1bd33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ithappy/Fantasy_FREE/Prefabs/fabulous_tree_001.prefab using Guid(92197e3ff2cd62844bfca02082d1bd33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08790e040a475cbb7bdab45ac19bc2a0') in 0.016281 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ithappy/Fantasy_FREE/Prefabs/crane_001.prefab
+  artifactKey: Guid(d86b48732c39c484c8dbf5234e805ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ithappy/Fantasy_FREE/Prefabs/crane_001.prefab using Guid(d86b48732c39c484c8dbf5234e805ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da53cd1fdbb7b7d062cd2c609f33ad54') in 0.048030 seconds 
+Number of asset objects unloaded after import = 68
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/ithappy/Fantasy_FREE/Prefabs/house_001.prefab
+  artifactKey: Guid(f5e4906233f730046b4a304d661200e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ithappy/Fantasy_FREE/Prefabs/house_001.prefab using Guid(f5e4906233f730046b4a304d661200e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b53391e43818a189017df3242b129e82') in 0.014283 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ithappy/Fantasy_FREE/Prefabs/log_001.prefab
+  artifactKey: Guid(8e2010e0358849549a618800225d83c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ithappy/Fantasy_FREE/Prefabs/log_001.prefab using Guid(8e2010e0358849549a618800225d83c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2749303b5b3df120515334add8c17aa3') in 0.015060 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ithappy/Fantasy_FREE/Prefabs/fir_001.prefab
+  artifactKey: Guid(b17ded409954ff14785ffc6d2238ca32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ithappy/Fantasy_FREE/Prefabs/fir_001.prefab using Guid(b17ded409954ff14785ffc6d2238ca32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1885a4cbec8cdceac50c960eb835669f') in 0.012735 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ithappy/Fantasy_FREE/Prefabs/jug_004.prefab
+  artifactKey: Guid(b3be9e6a21cf23248ab9e0b62e73d56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ithappy/Fantasy_FREE/Prefabs/jug_004.prefab using Guid(b3be9e6a21cf23248ab9e0b62e73d56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7696eca29e0faaf899573f6eadd3f2ad') in 0.014490 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ithappy/Fantasy_FREE/Prefabs/house_003.prefab
+  artifactKey: Guid(b532d1daf8067554d994cffdbd4e8e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ithappy/Fantasy_FREE/Prefabs/house_003.prefab using Guid(b532d1daf8067554d994cffdbd4e8e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10c886336b438ae3e8c28652ce2417bb') in 0.014873 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ithappy/Fantasy_FREE/Prefabs/box_002.prefab
+  artifactKey: Guid(685311df3819b1d479b8075963fa253f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ithappy/Fantasy_FREE/Prefabs/box_002.prefab using Guid(685311df3819b1d479b8075963fa253f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ed0eb16b7c958f43d06192ad503b526') in 0.012783 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ithappy/Fantasy_FREE/Prefabs/jug_005.prefab
+  artifactKey: Guid(57189de443db1ea4c915621f039aa50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ithappy/Fantasy_FREE/Prefabs/jug_005.prefab using Guid(57189de443db1ea4c915621f039aa50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ec7004239d470441b4f5142995c3614') in 0.013920 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ithappy/Fantasy_FREE/Prefabs/bag_004.prefab
+  artifactKey: Guid(25d51e14d95ed7d4c9f6d86187739f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ithappy/Fantasy_FREE/Prefabs/bag_004.prefab using Guid(25d51e14d95ed7d4c9f6d86187739f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '388f7b753ca1a26a1ca32decd6b90291') in 0.013063 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ithappy/Fantasy_FREE/Prefabs/stall_001.prefab
+  artifactKey: Guid(e40b2cab91d54294d80e65f18e1b8c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ithappy/Fantasy_FREE/Prefabs/stall_001.prefab using Guid(e40b2cab91d54294d80e65f18e1b8c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d924463e20baffe1cbe2b562d4f9bcd') in 0.015857 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ithappy/Fantasy_FREE/Prefabs/fabulous_mushroom_004.prefab
+  artifactKey: Guid(6d347e52be3a9e94ab6aaeaa549a2aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ithappy/Fantasy_FREE/Prefabs/fabulous_mushroom_004.prefab using Guid(6d347e52be3a9e94ab6aaeaa549a2aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9d867b3ec666970ebf3ef7df900eb8e') in 0.026547 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ithappy/Fantasy_FREE/Prefabs/big_fabulous_tree_001.prefab
+  artifactKey: Guid(0f128140f84d9dc4a98508d195ac256c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ithappy/Fantasy_FREE/Prefabs/big_fabulous_tree_001.prefab using Guid(0f128140f84d9dc4a98508d195ac256c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6581cac3176b45241901950dc69b91ca') in 0.020690 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ithappy/Fantasy_FREE/Prefabs/log_003.prefab
+  artifactKey: Guid(2cb74f8103cb0ce49b58f953f665431f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ithappy/Fantasy_FREE/Prefabs/log_003.prefab using Guid(2cb74f8103cb0ce49b58f953f665431f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49531861e423ec536160e9b74a675b9b') in 0.013970 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ithappy/Fantasy_FREE/Prefabs/log_004.prefab
+  artifactKey: Guid(4d5f9c18650d50f479617c6327bbb5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ithappy/Fantasy_FREE/Prefabs/log_004.prefab using Guid(4d5f9c18650d50f479617c6327bbb5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bce7bcb7b2c2169b96b60cd999a25f7') in 0.020282 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ithappy/Fantasy_FREE/Prefabs/holder_001.prefab
+  artifactKey: Guid(e699ee6291176114ea0ede8da7e9ce24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ithappy/Fantasy_FREE/Prefabs/holder_001.prefab using Guid(e699ee6291176114ea0ede8da7e9ce24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5986d6ac8225e7752acbb2459521db0') in 0.015165 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ithappy/Fantasy_FREE/Prefabs/jug_002.prefab
+  artifactKey: Guid(2975dfbd094c603429195ad359fcacc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ithappy/Fantasy_FREE/Prefabs/jug_002.prefab using Guid(2975dfbd094c603429195ad359fcacc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52bb653212cf2ed0734a2ce6a901531c') in 0.014298 seconds 
+Number of asset objects unloaded after import = 16
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

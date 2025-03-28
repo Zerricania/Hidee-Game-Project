@@ -48,10 +48,10 @@
     <Compile Include="Assets\FishNet\CodeGenerating\cecil-0.11.4\Mono.Cecil.Metadata\ElementType.cs" />
     <Compile Include="Assets\FishNet\CodeGenerating\cecil-0.11.4\Mono.Cecil\ParameterReference.cs" />
     <Compile Include="Assets\FishNet\CodeGenerating\cecil-0.11.4\Mono\MergeSort.cs" />
-    <Compile Include="Assets\FishNet\CodeGenerating\cecil-0.11.4\Mono.Cecil.Metadata\Buffers.cs" />
     <Compile Include="Assets\FishNet\CodeGenerating\cecil-0.11.4\Mono.Cecil\LinkedResource.cs" />
-    <Compile Include="Assets\FishNet\CodeGenerating\cecil-0.11.4\Mono.Cecil\IGenericParameterProvider.cs" />
+    <Compile Include="Assets\FishNet\CodeGenerating\cecil-0.11.4\Mono.Cecil.Metadata\Buffers.cs" />
     <Compile Include="Assets\FishNet\CodeGenerating\cecil-0.11.4\Mono.Cecil\TypeAttributes.cs" />
+    <Compile Include="Assets\FishNet\CodeGenerating\cecil-0.11.4\Mono.Cecil\IGenericParameterProvider.cs" />
     <Compile Include="Assets\FishNet\CodeGenerating\cecil-0.11.4\Mono.Cecil\FunctionPointerType.cs" />
     <Compile Include="Assets\FishNet\CodeGenerating\cecil-0.11.4\Mono.Cecil.Cil\Symbols.cs" />
     <Compile Include="Assets\FishNet\CodeGenerating\cecil-0.11.4\Mono.Cecil\EventDefinition.cs" />
@@ -95,9 +95,9 @@
     <Compile Include="Assets\FishNet\CodeGenerating\cecil-0.11.4\Mono.Cecil\MethodReturnType.cs" />
     <Compile Include="Assets\FishNet\CodeGenerating\cecil-0.11.4\Mono.Cecil\Consts.cs" />
     <Compile Include="Assets\FishNet\CodeGenerating\cecil-0.11.4\Mono.Cecil\VariantType.cs" />
-    <Compile Include="Assets\FishNet\CodeGenerating\cecil-0.11.4\Mono.Cecil\FieldAttributes.cs" />
     <Compile Include="Assets\FishNet\CodeGenerating\cecil-0.11.4\Mono.Cecil.Cil\PortablePdb.cs" />
     <Compile Include="Assets\FishNet\CodeGenerating\cecil-0.11.4\Mono.Cecil.Metadata\CodedIndex.cs" />
+    <Compile Include="Assets\FishNet\CodeGenerating\cecil-0.11.4\Mono.Cecil\FieldAttributes.cs" />
     <Compile Include="Assets\FishNet\CodeGenerating\cecil-0.11.4\Mono.Cecil.Cil\ExceptionHandler.cs" />
     <Compile Include="Assets\FishNet\CodeGenerating\cecil-0.11.4\Mono.Cecil\ManifestResourceAttributes.cs" />
     <Compile Include="Assets\FishNet\CodeGenerating\cecil-0.11.4\Mono.Cecil.PE\ByteBufferEqualityComparer.cs" />
@@ -450,7 +450,7 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.45f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>C:\Users\Alish\Desktop\Hidee\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
+      <HintPath>C:\Users\Alish\Desktop\Hidee-Game-Project\Hidee\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
@@ -834,16 +834,16 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.45f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XPath.XDocument.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:\Users\Alish\Desktop\Hidee\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+      <HintPath>C:\Users\Alish\Desktop\Hidee-Game-Project\Hidee\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:\Users\Alish\Desktop\Hidee\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+      <HintPath>C:\Users\Alish\Desktop\Hidee-Game-Project\Hidee\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-      <HintPath>C:\Users\Alish\Desktop\Hidee\Library\ScriptAssemblies\UnityEngine.TestRunner.dll</HintPath>
+      <HintPath>C:\Users\Alish\Desktop\Hidee-Game-Project\Hidee\Library\ScriptAssemblies\UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
-      <HintPath>C:\Users\Alish\Desktop\Hidee\Library\ScriptAssemblies\UnityEditor.TestRunner.dll</HintPath>
+      <HintPath>C:\Users\Alish\Desktop\Hidee-Game-Project\Hidee\Library\ScriptAssemblies\UnityEditor.TestRunner.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
