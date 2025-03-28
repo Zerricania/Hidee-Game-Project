@@ -25,6 +25,18 @@ public class PlayerController : NetworkBehaviour
     private bool _canMove = true;
     private bool _cursorVisible = false;
 
+    public override void OnStartServer()
+    {
+        base.OnStartServer();
+    
+        RoleManager roleManager = FindObjectOfType<RoleManager>();
+        if (roleManager != null)
+        {
+            roleManager.AddPlayer(Owner);
+        }
+    }
+
+    
     public override void OnStartClient()
     {
         base.OnStartClient();

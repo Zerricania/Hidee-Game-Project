@@ -44,11 +44,11 @@
     <Analyzer Include="C:\Users\Alish\Desktop\Hidee-Game-Project\Hidee\Assets\FishNet\Runtime\Plugins\CodeAnalysis\FishNet.CodeAnalysis.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\RoleManager.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\FishNet\Upgrading\EdgegapMenu.cs" />
     <Compile Include="Assets\FishNet\Upgrading\MirrorUpgrade.cs" />
     <Compile Include="Assets\FishNet\Upgrading\UpgradeFromMirrorMenu.cs" />
-    <Compile Include="Assets\Scripts\RoleManager.cs" />
     <None Include="Assets\FishNet\LICENSE.txt" />
     <None Include="Assets\FishNet\package.json" />
     <None Include="Assets\ithappy\Fantasy_FREE\Render_Pipeline_Convert\Documentation.txt" />
